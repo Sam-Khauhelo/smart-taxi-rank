@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.smarttaxi.driver" 
+        version="1.0.0" 
+        xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    
+    <name>Smart Taxi Driver</name>
+    <description>Taxi Rank Management for Drivers</description>
+    <author email="support@smarttaxi.co.za" href="https://yourdomain.com">
+        Smart Taxi Team
+    </author>
+    
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    
+    <!-- Allow your domain -->
+    <allow-navigation href="https://yourdomain.com/*" />
+    
+    <!-- Splash screen preferences -->
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="FadeSplashScreen" value="true" />
+    
+    <!-- Android preferences -->
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="22" />
+        <preference name="android-targetSdkVersion" value="30" />
+        <preference name="KeepRunning" value="true" />
+        
+        <!-- Icons for Android -->
+        <icon density="ldpi" src="res/icon/android/ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
+    </platform>
+    
+    <!-- iOS preferences -->
+    <platform name="ios">
+        <preference name="TargetDevice" value="handset" />
+        <preference name="deployment-target" value="11.0" />
+        
+        <!-- Icons for iOS -->
+        <icon height="57" src="res/icon/ios/icon-57.png" width="57" />
+        <icon height="114" src="res/icon/ios/icon-57@2x.png" width="114" />
+        <icon height="40" src="res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" src="res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="50" src="res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" src="res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" src="res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" src="res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" src="res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" src="res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" src="res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" src="res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="167" src="res/icon/ios/icon-83.5@2x.png" width="167" />
+    </platform>
+</widget>
